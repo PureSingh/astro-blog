@@ -1,0 +1,13 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Dev server
+    init: npm install
+    command: npm run start
+
+vscode:
+  extensions:
+    - ChrisChinchilla.vale-vscode
+    - astro-build.astro-vscode
+    - esbenp.prettier-vscode
